@@ -1,6 +1,5 @@
-unity-MobileTouchController
-===========================
-<h1>MobileTouchController</h1>
+<h1>unity-MobileTouchController</h1>
+<br />
 <p>練習用のサンプルになります。<br />
 マルチタップでのオブジェクトのタッチインターフェースの実装例です。<br />
 あたり判定を利用してタッチポイントを検出しそこに物を動かすだけです。<br />
