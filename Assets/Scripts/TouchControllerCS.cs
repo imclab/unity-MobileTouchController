@@ -7,7 +7,6 @@ public class TouchControllerCS : MonoBehaviour {
 	
 	private GameObject[] pointer;
 	
-	
 	void Start () {
 		
 		pointer = new GameObject[5];
@@ -20,7 +19,7 @@ public class TouchControllerCS : MonoBehaviour {
 		for(var i=0; i<Input.touchCount; i++) {
 		
 			Touch t = Input.GetTouch(i);
-			Ray ray = camera.ScreenPointToRay (Input.GetTouch(i).position);
+			Ray ray = Camera.main.ScreenPointToRay (Input.GetTouch(i).position);
 		
 			switch(t.phase) {
 				case TouchPhase.Began:
