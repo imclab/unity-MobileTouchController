@@ -3,7 +3,7 @@
 
 
 private var isDrag: boolean = false;
-private var pointer: GameObject[];
+public var pointer: GameObject[];
 
 
 
